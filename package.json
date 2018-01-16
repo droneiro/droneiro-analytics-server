@@ -4,8 +4,10 @@
   "description": "Push Google Analytics data to the main application",
   "main": "app.js",
   "dependencies": {
+    "analytics-reporting-request-generator": "^1.0.0",
     "express": "4.15.3",
-    "googleapis": "^24.0.0"
+    "googleapis": "^24.0.0",
+    "q": "^1.5.1"
   },
   "devDependencies": {},
   "scripts": {
