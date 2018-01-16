@@ -4,11 +4,13 @@
   "description": "Push Google Analytics data to the main application",
   "main": "app.js",
   "dependencies": {
+    "express": "4.15.3",
     "googleapis": "^24.0.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "live": ""
   },
   "author": "Kande Bonfim",
   "license": "ISC"
